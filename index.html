@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+        header::before{
+            content: "";
+            background: url("https://source.unsplash.com/user/erondu/1600x900") no-repeat center center/cover;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            top: 0; 
+            left: 0;
+            opacity: 0.5;
+        }
+
+        .navbar {
+            display: flex;
+            font-size: 23px;
+        }
+
+        .navigation {
+            font-size: 20px;
+            display: flex;
+        }
+
+        li {
+            list-style: none;
+            padding: 20px 23px;
+        }
+
+        section {
+            margin: 3px 23px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        p {
+            text-align: center;
+        }
+        a{
+            color: aliceblue;
+            text-decoration: none;
+        }
+        a:hover{
+            color: gray;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <a href="index.html">
+                    <li class="items">Home</li>
+                </a>
+                <a href="aboutme.html">
+                    <li class="items">About me</li>
+                </a>
+                <a href="services.html">
+                    <li class="items">Services</li>
+                </a>
+                <a href="contact.html">
+                    <li class="items">Contact Us</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Welcome</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est praesentium blanditiis quo quibusdam molestias
+            deleniti, accusantium perferendis optio fugit sed eius atque expedita, nulla distinctio maiores eos.
+            Possimus ea vero voluptatum quod assumenda error?</p>
+    </section>
+</body>
